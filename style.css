@@ -3,6 +3,7 @@
 }
 body {
     margin: 0;
+    background-color: #ffc845;
 }
 
 html {
@@ -16,5 +17,56 @@ html {
 }
 header {
     background-color: #279989;
-    padding: 15px 10px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: flex-end;
+}
+
+h1.title-lista {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+a.menu {
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+}
+
+section.productos-comprados {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #5fa789;
+}
+i.fa-solid.fa-circle-plus {
+    color: white;
+    font-size: 25px;
+}
+.white {
+    color: white;
+}
+.lista-productos {
+    padding: 15px 20px;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+}
+section.total-price {
+    padding: 0 20px;
+}
+p.position-right {
+    text-align: right;
+}
+.sin-tachado {
+    text-decoration: none;
 }
