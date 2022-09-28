@@ -41,7 +41,7 @@ a.menu {
     text-align: center;
 }
 
-section.productos-comprados {
+div.productos-comprados {
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
@@ -62,7 +62,7 @@ label {
     display: flex;
     justify-content: space-between;
 }
-section.total-price {
+div.total-price {
     padding: 0 20px;
 }
 p.position-right {
