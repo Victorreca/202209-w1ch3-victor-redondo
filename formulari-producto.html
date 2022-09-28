@@ -26,35 +26,25 @@
         </header>
         <main>
             <section class="productos-comprados">
-                <a href="formulari-producto.html"
-                    ><p><i class="fa-solid fa-circle-plus"></i></p
+                <a href="index.html"
+                    ><p><i class="fa-solid fa-circle-minus"></i></p
                 ></a>
                 <p class="white">2/3 comprados</p>
             </section>
-            <section class="lista-productos">
-                <label>
-                    <span class="tachado"><input type="checkbox" /> Pan </span>
-                    <span class="tachado"> 0.75€</span>
-                </label>
-                <br />
-                <label>
-                    <span><input type="checkbox" /> Azúcar </span
-                    ><span class="tachado"></span>
-                </label>
-                <br />
-                <label>
-                    <span class="tachado"><input type="checkbox" /> Leche </span
-                    ><span class="tachado">1.20€</span>
-                </label>
-                <br />
-                <label>
-                    <span><input type="checkbox" /> Tofu </span
-                    ><span class=""> 4.35€</span>
-                </label>
+
+            <section class="formulario">
+                <h2 class="add-articles">Añadir artículo</h2>
             </section>
-            <hr />
-            <section class="total-price">
-                <p class="position-right">6.3€</p>
+            <section>
+                <form name="formulario" class="formulario">
+                    <div>Nombre:</div>
+                    <div><input type="text" name="usuario" /></div>
+
+                    <div>Precio:</div>
+                    <div><input type="text" name="usuario" /> €</div>
+
+                    <input type="submit" value="Añadir" />
+                </form>
             </section>
         </main>
     </body>

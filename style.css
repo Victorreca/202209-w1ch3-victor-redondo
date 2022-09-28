@@ -47,7 +47,8 @@ section.productos-comprados {
     padding: 15px 20px;
     background-color: #5fa789;
 }
-i.fa-solid.fa-circle-plus {
+i.fa-solid.fa-circle-plus,
+i.fa-solid.fa-circle-minus {
     color: white;
     font-size: 25px;
 }
@@ -69,4 +70,13 @@ p.position-right {
 }
 .sin-tachado {
     text-decoration: none;
+}
+
+.formulario {
+    padding: 0 20px;
+}
+[type="submit"] {
+    background-color: #279989;
+    color: white;
+    margin-top: 10px;
 }
