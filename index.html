@@ -15,19 +15,19 @@
     </head>
     <body>
         <header>
-            <h1>Lista de la compra</h1>
+            <a href="index.html" class="sin-tachado"><h1 class="title-lista">Lista de la compra</h1></a>
             <nav>
-                <a href="#">Principal</a> <a href="/index.html">Lista</a>
-                <a href="#">Acerca de</a>
+                <a href="#" class="menu">Principal</a> <a href="/formulari-producto.html" class="menu">Lista</a>
+                <a href="#" class="menu">Acerca de</a>
             </nav>
         </header>
         <main>
-            <section>
-                <p><i class="fa-solid fa-circle-plus"></p></i> <p>2/3 comprados</p>
+            <section class="productos-comprados">
+                <p><i class="fa-solid fa-circle-plus"></p></i> <p class="white">2/3 comprados</p>
             </section>
-            <section>
+            <section class="lista-productos">
                 <label>
-                    <span><input type="checkbox"> Pan </span><span class="tachado"> 0.75€</span>
+                    <span class="tachado"><input type="checkbox"> Pan </span> <span class="tachado"> 0.75€</span>
                 </label>
                     <br>
                 <label>
@@ -35,7 +35,7 @@
                 </label>
                     <br>
                 <label>
-                    <span><input type="checkbox"> Leche </span><span class="tachado">1.20€</span>
+                    <span class="tachado"><input type="checkbox"> Leche </span><span class="tachado">1.20€</span>
                 </label>
                     <br>
                 <label>
@@ -43,9 +43,11 @@
                 </label>
             </section>
             <hr>
-            <p>
-                6.3€
-            </p>
+            <section class="total-price">
+                <p class="position-right">
+                    6.3€
+                </p>
+            </section>
         </main>
     </body>
 </html>
